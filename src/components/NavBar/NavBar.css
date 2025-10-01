@@ -1,0 +1,25 @@
+.navbar{
+    width: 100%;
+    height: 120px;
+    background-color: #82303f;
+    color: rgb(8, 7, 7);
+    display: flex;
+    justify-content: space-between ;
+}
+
+.navbar .logo{
+    width: 140px;
+    padding-left: 50px;
+}
+.categorias{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.categorias li{
+    padding: 0 15px;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}

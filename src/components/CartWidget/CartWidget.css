@@ -1,0 +1,37 @@
+.carrito {
+    width: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    display: block;
+}
+
+/* .carritoCompras p {
+    color: rgb(8, 8, 8);
+    font-weight: 700;
+    font-size: 30px;
+
+}  */
+
+.carritoCompras{
+  position: relative;
+  display: inline-block; /* así el badge se posiciona relativo al ícono */
+}
+
+
+.carritoCompras p{
+  position: absolute;
+  top: 20px;             /* mueve verticalmente el badge */
+  right: 40px;           /* mueve horizontalmente el badge */
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;        /* para 2+ dígitos */
+  border-radius: 999px;  /* círculo/pastilla */
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: center;
+  background: #047a35;   /* rojo badge */
+  color: #fff;
+  box-shadow: 0 0 0 2px #fff; /* aro blanco, mejora contraste */
+  user-select: none;
+}
