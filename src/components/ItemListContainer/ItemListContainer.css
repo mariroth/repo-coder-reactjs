@@ -1,4 +1,21 @@
-.container{
+
+body {
+    margin: 0;
+    background-color: #faf7f5; 
+    font-family: 'Segoe UI', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 16px;
+    background-color: #faf7f5;  
+    border-radius: 8px;
+}
+
+.container > h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3c0f1a;
+    margin: 0 0 16px;
     text-align: center;
-    
 }

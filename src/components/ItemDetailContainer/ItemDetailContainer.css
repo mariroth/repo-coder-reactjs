@@ -1,0 +1,17 @@
+.detail-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 32px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,.05);
+}
+
+.loading {
+    text-align: center;
+    color: #6b1d2b;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 40px 0;
+    opacity: 0.8;
+}
