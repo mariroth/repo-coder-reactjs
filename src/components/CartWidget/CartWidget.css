@@ -5,33 +5,27 @@
     display: block;
 }
 
-/* .carritoCompras p {
-    color: rgb(8, 8, 8);
-    font-weight: 700;
-    font-size: 30px;
-
-}  */
 
 .carritoCompras{
   position: relative;
-  display: inline-block; /* así el badge se posiciona relativo al ícono */
+  display: inline-block; 
 }
 
 
 .carritoCompras p{
   position: absolute;
-  top: 20px;             /* mueve verticalmente el badge */
-  right: 40px;           /* mueve horizontalmente el badge */
+  top: 20px;             
+  right: 40px;           
   min-width: 18px;
   height: 18px;
-  padding: 0 5px;        /* para 2+ dígitos */
-  border-radius: 999px;  /* círculo/pastilla */
+  padding: 0 5px;       
+  border-radius: 999px;  
   line-height: 18px;
   font-size: 12px;
   font-weight: 700;
   text-align: center;
-  background: #047a35;   /* rojo badge */
+  background: #047a35;   
   color: #fff;
-  box-shadow: 0 0 0 2px #fff; /* aro blanco, mejora contraste */
+  box-shadow: 0 0 0 2px #fff; 
   user-select: none;
 }

@@ -1,6 +1,5 @@
 
 import './ItemListContainer.css';
-// import getProducts from '../../data/products.js';
 import { useEffect, useState } from 'react';
 import ItemList from '../ItemList/ItemList.jsx'; 
 import { useParams } from "react-router-dom";
@@ -52,23 +51,6 @@ const ItemListContainer = ({greeting}) => {
             getProducts();
         }
     }, [category]);
-
-    // useEffect(()=>{
-    //     setLoading(true);
-
-    //     getProducts()
-    //     .then((data) => {
-    //         if(category) {
-    //             const productsFilter = data.filter((product)=> product.category === category);
-    //             setProducts(productsFilter);
-    //         }else{
-    //             setProducts(data); 
-    //         }
-    // }) 
-    // .finally(()=> {
-    //     setLoading(false);
-    // })
-    // }, [category])
 
     return (
         <div className="container">

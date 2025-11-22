@@ -1,8 +1,10 @@
 import React from "react";
+import "./FormCheckout.css";
+
 
 const FormCheckout = ({ dataForm, handleChangeImput, sendOrder }) => {
     return (
-        <form onSubmit={sendOrder}>
+        <form className="form-checkout" onSubmit={sendOrder}>
             <input 
                 type="text" 
                 name="fullname" 
